@@ -6,10 +6,17 @@
         <script src="https://cdn.tailwindcss.com"></script>
     </head>
 
-    <body>
-    <nav>
-        <ul>
-            <li><a href="#"><img src="assets/transparent-razorpay-logo.svg" alt="Razorpay logo"/></a></li>
+    <body class="">
+    <nav class="flex bg-blue-950 text-white justify-center space-x-5">
+        <img
+                src="assets/transparent-razorpay-logo.svg"
+                alt="Razorpay logo"
+                height="30px"
+                width="125px"
+                class="py-7"
+        />
+
+        <ul class="flex space-x-4 py-7">
             <li><a href="#">Payments</a></li>
             <li><a href="#">Banking+</a></li>
             <li><a href="#">Line of Credit</a></li>
@@ -17,13 +24,19 @@
             <li><a href="#">Resources</a></li>
             <li><a href="#">Support</a></li>
             <li><a href="#">Pricing</a></li>
-            <li><a href="#"><img src="assets/india-flag.6f093c6b.svg" alt="Indian flag"/></a></li>
-            <li><button>Log In</button></li>
-            <li><button>Sign Up</button></li>
         </ul>
-
+        <div class="flex space-x-2 py-5">
+            <a href="#">
+                <img src="assets/india-flag.6f093c6b.svg" alt="Indian flag" class="py-3"/>
+            </a>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Log In
+            </button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Sign Up
+            </button>
+        </div>
     </nav>
-
 
     <header>
         <h1>Power your finance, grow your business</h1>
