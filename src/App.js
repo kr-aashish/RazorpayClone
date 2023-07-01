@@ -1,5 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
-import LandingComponent from "./components/landingComponent/LandingComponent";
+import LandingComponent from "./components/landingInterface/LandingComponent";
 import PaymentSuite from "./components/paymentSuite/PaymentSuite";
 
 function App() {
