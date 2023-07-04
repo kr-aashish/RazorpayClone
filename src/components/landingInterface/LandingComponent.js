@@ -3,7 +3,7 @@ import sectionShape from '../../assets/section-shape.svg';
 function LandingComponent() {
     return (
         <header className="flex flex-col">
-            <div className="flex bg-blue-950 text-white px-7 justify-center">
+            <div className="flex bg-deepBlue text-white px-7 justify-center">
                 <div className="space-y-3 max-w-lg">
                     <h2 className="text-4xl ">Power your finance, grow your business</h2>
                     <p>Accept payments from customers. Automate payouts to vendors & employees.
