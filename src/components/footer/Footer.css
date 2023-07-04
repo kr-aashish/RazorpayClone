@@ -1,0 +1,9 @@
+footer {
+    /*background: linear-gradient(to right, #EEF9FE, #EDF7FF);*/
+    /*background: #EEF8FF;*/
+    background: linear-gradient(to right, #eef9fe, #edf7ff);
+}
+
+.ctaSection {
+    background-size: 100% 100%;
+}
