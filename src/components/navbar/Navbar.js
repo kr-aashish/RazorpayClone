@@ -5,7 +5,7 @@ import indianFlag from '../../assets/india-flag.6f093c6b.svg';
 function Navbar() {
     return (
         <>
-            <nav className="flex bg-blue-950 text-white justify-center space-x-5">
+            <nav className="flex bg-deepBlue text-white justify-center space-x-5">
                 <img
                     src={razorpayIcon}
                     alt="Razorpay logo"
